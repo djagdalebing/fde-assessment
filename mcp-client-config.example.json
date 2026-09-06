@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "customer-support": {
+      "command": "/absolute/path/to/fde/.venv/bin/python",
+      "args": ["-m", "task1_mcp_server"],
+      "cwd": "/absolute/path/to/fde",
+      "env": {
+        "PYTHONPATH": "/absolute/path/to/fde",
+        "MCP_LOG_LEVEL": "INFO"
+      }
+    }
+  }
+}
