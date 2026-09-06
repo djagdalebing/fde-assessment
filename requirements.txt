@@ -1,0 +1,18 @@
+# Task 1 - MCP server
+mcp>=2.1.0
+pydantic>=2.9
+
+# Tasks 2-4 - HTTP gateways
+fastapi>=0.115
+uvicorn[standard]>=0.30
+httpx>=0.27
+
+# Task 3 - partial-match regex for streaming redaction
+regex>=2024.5.15
+
+# Task 4 - token counting (optional; a heuristic is used if unavailable)
+tiktoken>=0.7
+
+# Tests
+pytest>=8.0
+pytest-asyncio>=0.24
